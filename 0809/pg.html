@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm">
+        <input type="text" name="a0"/><br/>
+        <input type="text" name="a1"/><br/>
+        <input type="text" name="a2"/><br/>
+        <input type="reset"/><br/>
+        <input type="button" value="초기화" onclick=""/>
+    </form>
+    <script>
+        for(var i=0;i<3;i++){
+            document.myForm["a"+i].value =i;
+        }
+    </script>
+</body>
+</html>

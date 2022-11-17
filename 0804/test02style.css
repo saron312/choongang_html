@@ -1,0 +1,16 @@
+h1, p{
+    font-family: serif;
+    color:black;
+    background-color: aquamarine;
+    border-bottom: 3px solid rgb(255,0,0);
+}
+.first{color:green;}
+p.second{ color:blue;}
+h1{
+    border-bottom: 5px solid gray;
+    color:rebeccapurple;
+}
+
+body{
+    background-color:beige;
+}
